@@ -35,7 +35,7 @@
                  }  ,
 
                  help:function(){
-                    this.echo(" ls \n about \n education \n projects \n socials \n spotify");
+                    this.echo(" ls \n about \n education \n projects \n socials \n spotify \n calc");
                  } ,
 
                  socials : function(){
@@ -44,6 +44,10 @@
                  } ,
                  spotify : function(){
                   this.echo("spotify playlist : https://open.spotify.com/playlist/3U9F57o6Igk8JOH0tIbbpO?si=d035f8fa7ddd45cc")
+                 },
+                 calc : function(input){
+                  var ans = eval(input);
+                  this.echo( "\n" + input + " = " + ans + "\n");
                  }
 
            } , {
