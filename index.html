@@ -12,6 +12,8 @@
     --background: #000000;
     --color: #ffffff;
   }
+
+  
     </style>
 </head>
 <body>
@@ -35,12 +37,13 @@
                  }  ,
 
                  help:function(){
-                    this.echo(" ls \n about \n education \n projects \n socials \n spotify \n calc");
+                    this.echo(" magic \n about  \n socials \n spotify \n calc ");
                  } ,
 
                  socials : function(){
                     this.echo(" instagram : https://www.instagram.com/vinayakshetty25" );
                     this.echo(" email : vinayakshetty500@gmail.com " );
+                    this.echo(" twitter : https://twitter.com/VinayakShetty_");
                  } ,
                  spotify : function(){
                   this.echo("spotify playlist : https://open.spotify.com/playlist/3U9F57o6Igk8JOH0tIbbpO?si=d035f8fa7ddd45cc")
@@ -48,6 +51,9 @@
                  calc : function(input){
                   var ans = eval(input);
                   this.echo( "\n" + input + " = " + ans + "\n");
+                 }  ,
+                 magic : function() {
+                  window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
                  }
 
            } , {
